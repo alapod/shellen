@@ -1,11 +1,11 @@
 # Shellen
 
-## General
-Shellen is an interactive shellcoding environment. If you want a handy tool to write shellcodes, then shellen may be your friend. Shellen can also be used as an assembly or disassembly tool.
+## About
+🐚 Welcome to Shellen, an interactive shellcoding environment designed to make writing shellcodes a breeze. Whether you're a seasoned developer or just starting out, Shellen is your go-to tool for crafting efficient shellcodes. Not only that, but Shellen doubles as a versatile assembly and disassembly tool, offering a comprehensive solution for your coding needs 💻🔧
 
-[keystone](https://github.com/keystone-engine/keystone) and [capstone](https://github.com/aquynh/capstone) engines are used for all of shellen's operations.
+Shellen uses [Keystone Engine](https://github.com/keystone-engine/keystone) for assembly operations and [Capstone engine](https://github.com/aquynh/capstone) for disassembly.
 
-Shellen **only works on python3**. python2 support may appear in the future.
+## Requirements
 
 ## Installing
 First, you should install shellen's dependencies:
