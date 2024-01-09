@@ -1,1 +1,1 @@
-`Check the repository on GitHub! <https://github.com/merrychap/shellen>`_
+`Interactive shellcoding environment designed to make writing shellcodes a breeze. Whether you're a seasoned developer or just starting out, Shellen is your go-to tool for crafting efficient shellcodes. Not only that, but Shellen doubles as a versatile assembly and disassembly tool, offering a comprehensive solution for your coding needs`_
