@@ -150,18 +150,10 @@ L:asm:x86_32 > shell <keyword> <count>
 Note, the ```count``` parameter isn't required. There is an image of ``shell <keyword> <count>``'s output in the [Pictures](#pictures) section.
 
 ### Supported Operating Systems
-Currently, shellen is only supported on Linux. If you want to add functionality for Windows or MacOS, then write an issue and I will add support.
+At the moment, Shellen is exclusively supported on Linux. If you'd like to request support for Windows or MacOS, please create an issue, and I'll work on adding the necessary functionality.
 
-## How to Report Problems or Request for New Features
-If you find a problem/bug or something, write an issue about this problem. Also, if you think that a feature will be a nice addition to shellen, do the same -- write an issue and I will try to add your requested feature.
-
-
-## Requirements
-- [keystone](https://github.com/keystone-engine/keystone)
-- [capstone](https://github.com/aquynh/capstone)
-- [colorama](https://github.com/tartley/colorama)
-- [termcolor](https://pypi.python.org/pypi/termcolor)
-- [terminaltables](https://github.com/Robpol86/terminaltables)
+## How to Report Problems and Request Features
+🐞🔍 If you encounter a problem or have a feature in mind that you believe would enhance Shellen, don't hesitate to write an issue, and I'll do my best to accommodate your requested feature. 
 
 ## TODO
 - [x] Assembling
