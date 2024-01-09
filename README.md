@@ -5,25 +5,33 @@
 
 Shellen uses [Keystone Engine](https://github.com/keystone-engine/keystone) for assembly operations and [Capstone engine](https://github.com/aquynh/capstone) for disassembly.
 
-## Requirements
+Please note that Shellen is designed to work exclusively on Linux systems.
 
-## Installing
-First, you should install shellen's dependencies:
+## Requirements
+- [keystone](https://github.com/keystone-engine/keystone)
+- [capstone](https://github.com/aquynh/capstone)
+- [colorama](https://github.com/tartley/colorama)
+- [termcolor](https://pypi.python.org/pypi/termcolor)
+- [terminaltables](https://github.com/Robpol86/terminaltables)
+
+## Installation guide
+
+#### If you're not sure you have all the [requirements](#requirements) installed:
 ```sh
 $ sudo apt-get install cmake python3-dev python3-setuptools
 ```
 
-You can install the stable version of shellen using ```pip3```:
+#### Already have all requirements installed?
+Install the stable version of shellen using ```pip3```:
 ```sh
 $ sudo pip3 install shellen
 ```
-
-Or if you already have all required packages (see [Requirements](#requirements)):
+Or
 ```sh
 $ python3 setup.py install
 ```
-
-If you have any problems with installing keystone-engine, then you should compile keystone-engine (see the [COMPILE.md](https://github.com/keystone-engine/keystone/blob/master/docs/COMPILE.md) file in the [keystone](https://github.com/keystone-engine/keystone) repository)
+#### Troubleshooting:
+If you encounter any issues during the installation of Keystone Engine, you may need to compile it from the source (see the [COMPILE.md](https://github.com/keystone-engine/keystone/blob/master/docs/COMPILE.md) file in the [keystone](https://github.com/keystone-engine/keystone) repository)
 
 ## How to Run Shellen
 After installing shellen and its required packages, you can run shellen by typing the following in your terminal:
