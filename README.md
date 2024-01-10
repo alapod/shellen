@@ -34,11 +34,12 @@ $ python3 setup.py install
 If you encounter any issues during the installation of Keystone Engine, you may need to compile it from the source (see the [COMPILE.md](https://github.com/keystone-engine/keystone/blob/master/docs/COMPILE.md) file in the [keystone](https://github.com/keystone-engine/keystone) repository)
 
 ## How to Run Shellen
-After installing shellen and its required packages, you can run shellen by typing the following in your terminal:
+To launch Shellen, enter the following command in your terminal:
+
 ```sh
 $ shellen
 ```
-You can run shellen's ```help``` command to get information about shellen's usage.
+The ```help``` command provides information on how to use Shellen (see [pics](pics))
 
 ## Shellen's Features
 Shellen assembles and disassembles instructions, so there are two usage modes: **asm** and **dsm** respectively. There are other features which include searching syscall tables and searching for common shellcodes.
@@ -165,7 +166,7 @@ At the moment, Shellen is exclusively supported on Linux. If you'd like to reque
 - [ ] Different histories for ```asm``` and ```dsm``` modes
 - [ ] Virtual environment to run shellcodes
 
-## Pictures
+## Pics
 Just a little bunch of pictures. (They are outdated because of adding different features)
 
 <p align="left">
