@@ -41,8 +41,8 @@ $ shellen
 ```
 The ```help``` command provides information on how to use Shellen (see [pics](pics))
 
-## Shellen's Features
-Shellen assembles and disassembles instructions, so there are two usage modes: **asm** and **dsm** respectively. There are other features which include searching syscall tables and searching for common shellcodes.
+## Features
+Shellen offers two usage modes: **asm** for assembling and **dsm** for disassembling instructions. Additionally, it includes features for searching syscall tables and common shellcodes.
 
 ### Prompt
 Shellen has a useful prompt that displays the current mode, OS (operating system for syscalls), and the current mode's chosen architecture. Shellen's prompt looks like this:
