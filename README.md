@@ -49,14 +49,14 @@ Shellen has a useful prompt that displays the current mode, OS (operating system
 ```sh
 L:asm:x86_32 >
 ```
-You can edit your input like you're typing in a terminal. Also, shellen records your command history (just type your up arrow to see your previous commands).
+You can modify your input as if you were typing in a terminal. Additionally, Shellen records your command history; simply use the up arrow to view your previous commands.
 
 ```L``` is the shortened name of ```Linux``` in the prompt. Below listed all other OS names:
 - ```L``` is Linux
 - ```W``` is Windows
 - ```M``` is MacOS
 
-If you want to change OS, then type ```setos [linux/windows/macos]``` as follows:
+To change OS, type ```setos [linux/windows/macos]``` as follows:
 ```sh
 L:asm:x86_32 > setos windows
 
