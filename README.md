@@ -45,7 +45,7 @@ The ```help``` command provides information on how to use Shellen (see [pics](pi
 Shellen offers two usage modes: **asm** for assembling and **dsm** for disassembling instructions. Additionally, it includes features for searching syscall tables and common shellcodes.
 
 ### Prompt
-Shellen has a useful prompt that displays the current mode, OS (operating system for syscalls), and the current mode's chosen architecture. Shellen's prompt looks like this:
+Shellen has a useful prompt that displays the current mode, OS (operating system for syscalls), and the current mode's chosen architecture. Prompt for Linux assembly mode for x86_32 architecture:
 ```sh
 L:asm:x86_32 >
 ```
