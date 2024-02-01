@@ -45,7 +45,8 @@ The ```help``` command provides information on how to use Shellen (see [pics](pi
 Shellen offers two usage modes: **asm** for assembling and **dsm** for disassembling instructions. Additionally, it includes features for searching syscall tables and common shellcodes.
 
 ### Prompt
-Shellen has a useful prompt that displays the current mode, OS (operating system for syscalls), and the current mode's chosen architecture. Prompt for Linux assembly mode for x86_32 architecture:
+Shellen has a useful prompt that displays the current mode, OS (operating system for syscalls), and the current mode's chosen architecture.\
+Prompt for Linux assembly mode for x86_32 architecture:
 ```sh
 L:asm:x86_32 >
 ```
@@ -80,19 +81,19 @@ L:dsm:arm32 >
 ### Base Commands
 Command | Description
 ------- | -----------
-```clear``` | Clear the terminal screen. As usual ```cls``` on Windows or ```clear``` on *nix systems.
-```help``` | Show the help message.
+```clear``` | Clear the terminal screen like ```cls``` on Windows or ```clear``` on *nix systems
+```help``` | Show the help message
 ```quit,q,exit``` | Finish the current session and quit
 
 ### Assembling
-To assemble instuctions, type them and separate them with semicolons as shown here:
+For the assembly instructions, just type them out and separate each one with semicolons like this:
 ```sh
 L:asm:x86_32 > mov edx, eax; xor eax, eax; inc edx; int 80;
    [+] Bytes count: 7
        Raw bytes:  "\x89\xc2\x31\xc0\x42\xcd\x50"
        Hex string: "89c231c042cd50"
 ```
-If your assembled bytes contain a null byte, then shellen will tell you about this.
+If your assembled bytes contain a null byte, shellen will let you know.
 
 ### Disassembling
 Disassembling is similar to assembling. Instead, type your bytes in the prompt and see the result!
